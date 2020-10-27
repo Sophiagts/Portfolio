@@ -1,0 +1,58 @@
+
+*{
+  border: 1px dashed #ffd700
+}
+
+body {
+  background-color: black;
+  color: #ffffff;
+  width: 75%;
+  font-size: 15px
+}
+
+h1 {
+  color: #e60000;
+  font-size: 4.5rem
+}
+
+h2 {
+  color: #e600e6;
+  font-size: 2.2rem
+}
+h3, h4, h5 {
+  color: #ff6600;
+  font-size: 2rem
+}
+
+a[href="#"] {
+  font-size: 1.5rem;
+  color: #ff9933;
+}
+
+a[href="./about-me.html"] {
+    font-size: 1.5rem;
+    color: #ff9933;
+}
+
+p {
+  color: #ffffff;
+  width
+}
+
+.green-text {
+  color: #7CfC00
+}
+
+.pfont-size {
+  font-size: 1.1rem
+}
+
+img {
+       border-style: solid;
+       border-bottom-color: #cc0000;
+       border-left-color: #ffd700;
+       border-right-color: #3399ff;
+       border-top-color: #9966ff;
+       border-width: 10px;
+       width: 43%;
+     }
