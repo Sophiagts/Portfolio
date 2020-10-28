@@ -26,11 +26,9 @@ h3, h4, h5 {
   font-size: 2rem
 }
 
-a[href="#1"] {
+a[href="#"] {
   font-size: 1.5rem;
   color: #ff9933;
-  width: 100%;
-  margin-left: 500px;
 
 }
 
@@ -50,10 +48,6 @@ a[href="./index.html"] {
   color: #ff9933;
 }
 
-a[href="#"] {
-  font-size: 1.5rem;
-  color: #ff9933;
-}
 
 p {
   text-align: justify;
