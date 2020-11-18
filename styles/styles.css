@@ -12,26 +12,27 @@ body {
 
 header{
   background-color: #39603D;
+  padding: 2%;
 }
 
 h1 {
   color: black;
-  font-size: 4.5rem;
+  font-size: 5rem;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 nav ul {
   display: flex;
   justify-content: center;
   list-style: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: black;
 }
 
 nav li{
   margin-right: 20px;
-  padding-bottom: 20px;
 }
 
  nav a {
@@ -53,30 +54,39 @@ h2 {
 
 }
 
-section{
-  color: #3C403D;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-right: 20px;
-  margin-left:  20px;
-
-}
 
 .container-1{
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
 }
 
-.container-1 div{
-  border:1px #ccc solid;
-  padding:10px;
+.container-1 div, .container-2 div{
+  /*border:1px #ccc solid;
+  padding:10px;*/
+
+}
+
+.container-1-box{
+  width: 32.25%;
+}
+
+.container-2{
+  display: flex;
+  justify-content: center;
+}
+
+.container-2-box{
+  width: 32.25%;
 }
 
 section a{
   color: #39603D;
   text-decoration: none;
   font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 section a:hover{
@@ -86,32 +96,23 @@ section a:hover{
 h3, h4, h5 {
   color: #39603D;
   font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 p {
+  color: #3C403D;
+  font-size: 1.1rem;
   text-align: justify;
 }
-
-.box-1{
-
-}
-
-.box-2{
-
-}
-
-.box-3{
-
-}
-
-
 
 img {
   border-style: solid;
   /*border-color: #9966ff #3399ff #cc0000 #ffd700;*/
   border-color: #39603D;
   border-width: 10px;
-  width: 50%;
+  width: 100%;
 
  }
 
@@ -120,6 +121,8 @@ img {
    position: absolute;
    width: 100%;
    color: black;
+   display: flex;
+   justify-content: center;
  }
 
  footer ul {
@@ -128,6 +131,7 @@ img {
    color: black;
    display: flex;
    flex-direction: row;
+
  }
 
  .facebook{
